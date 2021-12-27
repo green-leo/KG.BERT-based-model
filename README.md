@@ -4,12 +4,17 @@ The repository is modified from [KG-Bert](https://github.com/yao8839836/kg-bert)
 
 ## Technique
 * Bert - BertForSequenceClassification
-
+* Base model - "vinai/phobert-base" 
+	* change BASE_MODEL_PATH to this in config.py if not using local path
+	* due to the limit size of file policy, download phobert-base model by [link](https://drive.google.com/drive/folders/1PLPPJtIxR2iaDAUNe6dOspz38hZCluAC?usp=sharing)
 
 ## Requirement
+* transformers
 * torch
 * pytorch_pretrained_bert
+* pho-bert
 * ...
+
 
 ## Usage
 The data was already modified for the training
