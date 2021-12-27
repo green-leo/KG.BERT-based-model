@@ -12,7 +12,6 @@ The repository is modified from [KG-Bert](https://github.com/yao8839836/kg-bert)
 * transformers
 * torch
 * pytorch_pretrained_bert
-* pho-bert
 * ...
 
 
